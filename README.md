@@ -9,9 +9,9 @@ npm install disney-movie-api
 ```
 ## Demonstration
 
-![http://localhost:8000/filters](https://tenor.com/pt/view/gif-27598733)
+![http://localhost:8000/filters](/gif/filters.gif)
 
-![http://localhost:8000/movies](https://tenor.com/pt/view/gif-27598733)
+![http://localhost:8000/movies](/gif/movies.gif)
 
 ## Autor
 
