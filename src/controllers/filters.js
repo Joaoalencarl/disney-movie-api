@@ -2,11 +2,10 @@ const fs = require('fs');
 
 const moviesJson = require('../../disney_movies.json');
 
-    var years = [];
-    var genres = [];
-
 exports.get = (req, res) => {
 
+    var years = [];
+    var genres = [];
 
     moviesJson.forEach(movie => {
         var year = movie.release_date.split('/')[2];
