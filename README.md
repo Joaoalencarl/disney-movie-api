@@ -1,19 +1,48 @@
+
 # disney-movie-api
  application of an api with backand development for the Technical Challenge – Backend Ford Motor Company
 
-## Instalation
+## Run Localy
+
+Clone project
+
+```bash
+git clone https://github.com/Joaoalencarl/disney-movie-api.git
+```
+
+Go to project and install
 
 ```bash
 cd disney-movie-api
 npm install disney-movie-api
 ```
+
+Start
+
+```bash
+npm start
+```
 ## Demonstration
 
-![http://localhost:8000/filters](/gif/filters.gif)
+for the demo we use the JSON file to define the API search specifications
 
-![http://localhost:8000/movies](/gif/movies.gif)
+```bash
+{
+    "filter":{
+    "years": "2000,1995",
+    "genre": "Comedy"
+    }
+}
+```
 
+![Filter host demonstation on Postman](/gif/filters.gif)
+
+![Movies host demonstation on Postman](/gif/movies.gif)
 ## Autor
 
 - [@Joaoalencarl](https://github.com/Joaoalencarl)
 
+
+### Licence
+
+[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/) 
